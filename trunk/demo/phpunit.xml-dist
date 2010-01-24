@@ -1,0 +1,14 @@
+<phpunit bootstrap="./bootstrap.php">
+  <listeners>
+    <listener class="PHPUnit_Extensions_TicketListener_GoogleCode" file="PHPUnit/Extensions/TicketListener/GoogleCode.php">
+      <arguments>
+        <string>GOOGLE_ACCOUNT_EMAIL</string>
+        <string>GOOGLE_ACCOUNT_PASSWORD</string>
+        <string>GOOGLE_CODE_PROJECT_NAME</string>
+        <boolean>true</boolean>
+        <string>Fixed</string>
+        <string>Started</string>
+      </arguments>
+    </listener>
+  </listeners>
+</phpunit>
